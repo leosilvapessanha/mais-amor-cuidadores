@@ -29,9 +29,9 @@
     "prettier"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       1,
       {
@@ -54,5 +54,8 @@
         "typescript": {}
       }
     }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }
