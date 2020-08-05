@@ -1,6 +1,7 @@
 import React from 'react';
-import MenuHeader from '../../components/MenuHeader';
+import Navbar from '../../components/Header';
+import '../../styles/global';
 
-const Contact: React.FC = () => <MenuHeader />;
+const Contact: React.FC = () => <Navbar />;
 
 export default Contact;

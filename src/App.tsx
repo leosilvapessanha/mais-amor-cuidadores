@@ -1,13 +1,18 @@
 import React from 'react';
-import Routes from './routes';
 import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
+// import Navbar from './components/Header';
+import GlobalStyle from './styles/global';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
+    <>
+      <GlobalStyle />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </>
   );
-}
+};
 
 export default App;

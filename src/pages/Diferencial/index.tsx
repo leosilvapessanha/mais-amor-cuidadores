@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuHeader from '../../components/MenuHeader';
+import NavBar from '../../components/Header';
 
-const Diferencial: React.FC = () => <MenuHeader />;
+const Diferencial: React.FC = () => <NavBar />;
 
 export default Diferencial;

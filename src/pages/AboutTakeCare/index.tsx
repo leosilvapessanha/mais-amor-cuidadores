@@ -1,9 +1,9 @@
 import React from 'react';
-import MenuHeader from '../../components/MenuHeader';
-import createGlobalStyle from './style';
+import Navbar from '../../components/Header';
+// import createGlobalStyle from './style';
 
 const AboutTakeCare: React.FC = () => {
-  return <MenuHeader />;
+  return <Navbar />;
 };
 
 export default AboutTakeCare;

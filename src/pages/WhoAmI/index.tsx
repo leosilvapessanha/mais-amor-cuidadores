@@ -1,8 +1,8 @@
 import React from 'react';
-import MenuHeader from '../../components/MenuHeader';
+import NavBar from '../../components/Header';
 
 const WhoAmI: React.FC = () => {
-  <MenuHeader />;
+  return <NavBar />;
 };
 
 export default WhoAmI;
